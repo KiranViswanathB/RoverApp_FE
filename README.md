@@ -75,3 +75,19 @@ Here's what you'll find in `sample.env`:
 | NASA_API_KEY | Your NASA API Key | xxxxxxxxx | ✅        | Needed to fetch those cool Mars pics 🪐📸 |
 
 That's it! You're ready to explore Mars right from your computer! 🌌🔭
+
+## Technology Stack 🛠️
+- **ASP .NET Core 6.0**
+   - Utilized for crafting Web APIs.
+
+- **React v18**
+   - Employs the latest React version to create dynamic and responsive user interfaces.
+
+- **Caddy Server**
+   - Integrated as a reverse proxy and for efficient file serving within our containerized environment, optimizing resource usage.
+
+- **Docker**
+   - Employed for containerizing our application, ensuring consistent and reproducible deployment across environments.
+
+- **Docker Compose**
+   - Utilized for orchestrating Docker containers, streamlining the management of multi-container applications.
