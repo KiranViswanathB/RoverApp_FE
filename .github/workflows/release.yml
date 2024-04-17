@@ -40,3 +40,5 @@ jobs:
           push: true
           tags: ${{ steps.metaraw.outputs.tags }}
           labels: ${{ steps.metaraw.outputs.labels }}
+          build-args: |
+            BUILDKIT_CONTEXT_KEEP_GIT_DIR=true
