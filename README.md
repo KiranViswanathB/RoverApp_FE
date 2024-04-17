@@ -28,8 +28,7 @@
 
     ```powershell
     Invoke-WebRequest "https://raw.githubusercontent.com/KiranViswanathB/RoverApp_FE/main/compose.yaml" -OutFile compose.yaml
-      
-        ```
+   ```
 4. Launch!
    ```bash
     docker compose up
