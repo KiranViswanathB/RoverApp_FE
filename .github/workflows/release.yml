@@ -1,4 +1,4 @@
-name: SafeURL Image Fetch Release
+name: Rover Image Fetch Image Release
 
 on:
   push:
