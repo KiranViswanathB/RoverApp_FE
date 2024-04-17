@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS backendbuild
 WORKDIR /src
-COPY ./BackendService/RoverService.csproj /src/RoverService
+COPY ./BackendService/RoverService.csproj /src/RoverService/
 RUN dotnet restore "RoverService/RoverService.csproj"
 COPY ./BackendService/ /src/RoverService
 WORKDIR "/src/RoverService"
