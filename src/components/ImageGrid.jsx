@@ -4,6 +4,7 @@ import './ImageGrid.css'
 const Images = ({images}) => {
 
     return (
+
         <div id='wrapper' className='mt-[-800px] bg-gray-800  h-dvh w-dvh'>
 
             <div className='container'>
@@ -15,8 +16,6 @@ const Images = ({images}) => {
                     }
                 </div>
             </div>
-
-
         </div>
     )
 }

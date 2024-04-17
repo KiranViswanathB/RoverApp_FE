@@ -2,7 +2,6 @@ import { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import searchIcon from '../assets/search.svg';
-import '../../config.js';
 import config from "../../config.js";
 
 
